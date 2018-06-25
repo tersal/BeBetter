@@ -17,7 +17,7 @@ public class Login extends AppCompatActivity {
         btRegister = (Button) findViewById(R.id.Register);
         btRegister.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                CallServices()
+                CallServices();
             }
         });
     }
